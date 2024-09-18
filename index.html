@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title> ฅ^•ﻌ•^ฅ </title>
+</head>
+<body>
+  <div class = click>
+    <h3> click the minmin </h3>
+  </div>
+  <div class="flip-card-container">
+    <div class="flip-card">
+      <div class="flip-card-front">
+        <video loop muted autoplay>
+            <source src="yapping lia.mp4" type="video/mp4">
+      </div>
+      <div class="flip-card-back">
+        <p>
+          <em>I am delighted by the way you speak and the things you talk about. Listening to you, getting immersed, and losing myself in our conversations is one of my favorite things to do.
+            <br><br>You'll forever be my beloved little yapper.
+          </em>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var flipCardContainer = document.querySelector('.flip-card-container');
+        flipCardContainer.addEventListener('click', function() {
+            this.querySelector('.flip-card').classList.toggle('flipped');
+        });
+    });
+  </script>
+</body>
+</html>
